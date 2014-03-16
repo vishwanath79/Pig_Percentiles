@@ -1,7 +1,7 @@
 -- Pig calculates percentiles based on a list
 
 -- register '/usr/lib/pig/piggybank.jar';
--- Call python function for percentile calculation
+-- Call python function for percentile calculation;
 register '/home/vishs/pcent.py' using jython as pc;
 
 -- Load Data
